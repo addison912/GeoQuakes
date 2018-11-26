@@ -1,13 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../images/topo-map.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 0 0 10px 10px;
+  margin: 0 0 0 100px;
+  background: #333;
+  color: white;
+  padding: 15px 10px;
+  width: 300px;
+}
+h1 {
+  margin: 0;
+}
 .container {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+.row {
+  background: #aaa;
+  padding: 0 10px;
+  margin: 10px 0;
+  border-radius: 8px;
 }
 
 #map {
-  height: 600px;
-  margin-top: 20px;
+  height: 580px;
+  margin: 20px 0;
 }
 
 #info {
-  height: 600px;
+  height: 580px;
   overflow: scroll;
 }
